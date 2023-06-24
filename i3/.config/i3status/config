@@ -17,5 +17,9 @@ cpu_usage {
 
 memory {
   memory_used_method = classical
-  format="RAM: %used/%total"
+  format = "RAM: %used / %total"
+}
+
+tztime local {
+  format = "%d-%m-%Y %H:%M:%S"
 }
