@@ -43,7 +43,7 @@
     "plaintext": true,
     "markdown": true,
     "scminput": false,
-    "yaml": false,
+    "yaml": true,
     "typescript": true,
     "rust": true,
     "svelte": true
@@ -85,7 +85,6 @@
   "javascript.autoClosingTags": false,
   "typescript.autoClosingTags": false,
   "git.openRepositoryInParentFolders": "never",
-  "html.autoClosingTags": false,
   "javascript.preferences.renameMatchingJsxTags": false,
   "typescript.preferences.renameMatchingJsxTags": false,
   "explorer.fileNesting.patterns": {
