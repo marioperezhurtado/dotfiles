@@ -189,8 +189,6 @@ bar {
 
 #####################################################################################
 
-# Set wallpaper
-exec --no-startup-id feh --bg-scale '/home/mario/Pictures/Wallpapers/wallpaper.jpg'
 
 # Start picom compositor
 exec_always --no-startup-id picom
