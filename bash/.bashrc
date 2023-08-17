@@ -14,7 +14,12 @@ alias grep='grep --color=auto'
 alias vim='nvim'
 
 # custom prompt 
-PS1='\w\$ '
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+
+export PS1="\[\e[32m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$"
+
 
 # auto-complete 
 if [ -f /etc/bash_completion ]; then
