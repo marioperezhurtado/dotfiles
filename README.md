@@ -1,3 +1,3 @@
 # dotfiles
 
-[Manage dotfiles w/ GNU Stow](https://www.jakewiesler.com/blog/managing-dotfiles)
+[GNU Stow](https://www.jakewiesler.com/blog/managing-dotfiles)
