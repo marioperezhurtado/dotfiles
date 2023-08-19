@@ -3,7 +3,8 @@ export PATH="$PATH:/usr/local/bin"
 # pnpm
 export PNPM_HOME="/home/mario/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
-# pnpm end
+
+# cargo
 . "$HOME/.cargo/env"
 
 # alias 
@@ -12,6 +13,7 @@ alias la='ls -a'
 alias l='ls -CF'
 alias grep='grep --color=auto'
 alias vim='nvim'
+alias v='nvim .'
 
 # custom prompt 
 parse_git_branch() {
