@@ -36,7 +36,7 @@
 *.color15:      #f3f4f5
 
 xterm*faceName: Monospace
-xterm*faceSize: 16
+xterm*faceSize: 14
 
 xterm*VT100.Translations: #override \
 	Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
