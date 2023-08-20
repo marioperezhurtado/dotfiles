@@ -32,3 +32,6 @@ export PS1="\[\e[32m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
 if [ -f /etc/bash_completion ]; then
   . /etc/bash_completion
 fi
+
+# backspace fix
+stty erase ^H
