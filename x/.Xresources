@@ -35,9 +35,13 @@
 *.color7:       #c7ccd1
 *.color15:      #f3f4f5
 
-xterm*faceName: Monospace
-xterm*faceSize: 13
+xterm*renderFont: true
+xterm*faceName: Fira Code
+xterm*faceSize: 12
+
+xterm*ttyModes: erase ^H
 
 xterm*VT100.Translations: #override \
 	Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
 	Ctrl Shift <Key>C: copy-selection(CLIPBOARD)
+
