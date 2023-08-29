@@ -8,12 +8,12 @@ export PATH="$PNPM_HOME:$PATH"
 . "$HOME/.cargo/env"
 
 # alias 
-alias ll='ls -alF'
 alias la='ls -a'
-alias l='ls -CF'
 alias grep='grep --color=auto'
 alias vim='nvim'
 alias v='nvim .'
+alias t='tmux'
+alias c='clear'
 
 # custom prompt 
 parse_git_branch() {
