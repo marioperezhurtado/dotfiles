@@ -33,3 +33,6 @@ if [ -f /etc/bash_completion ]; then
   . /etc/bash_completion
 fi
 
+
+# Turso
+export PATH="/home/mario/.turso:$PATH"

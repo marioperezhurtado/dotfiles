@@ -199,3 +199,7 @@ default_floating_border pixel 1
 
 # Set keyboard layout
 exec "setxkbmap -layout us"
+
+# Switch keyboard layout (us/es)
+bindsym $mod+F11 exec "setxkbmap -layout us"
+bindsym $mod+F12 exec "setxkbmap -layout es"
